@@ -14,6 +14,7 @@
 		B55AD45F2CD1C7DD0040F59F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AD45E2CD1C7DD0040F59F /* Theme.swift */; };
 		B55AD4612CD1C9A10040F59F /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AD4602CD1C9A10040F59F /* DailyScrum.swift */; };
 		B55AD4642CD1CAE80040F59F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AD4632CD1CAE80040F59F /* CardView.swift */; };
+		B55AD4662CD22EA20040F59F /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AD4652CD22EA20040F59F /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B55AD45E2CD1C7DD0040F59F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		B55AD4602CD1C9A10040F59F /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		B55AD4632CD1CAE80040F59F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B55AD4652CD22EA20040F59F /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				B55AD44B2CD12AC40040F59F /* MeetingView.swift */,
 				B55AD4632CD1CAE80040F59F /* CardView.swift */,
+				B55AD4652CD22EA20040F59F /* TrailingIconLabelStyle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55AD4612CD1C9A10040F59F /* DailyScrum.swift in Sources */,
+				B55AD4662CD22EA20040F59F /* TrailingIconLabelStyle.swift in Sources */,
 				B55AD45F2CD1C7DD0040F59F /* Theme.swift in Sources */,
 				B55AD4502CD12AC40040F59F /* MeetingView.swift in Sources */,
 				B55AD4512CD12AC40040F59F /* ScrumdingerApp.swift in Sources */,
