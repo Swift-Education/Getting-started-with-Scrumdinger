@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct DailyScrum: Identifiable {
     let id: UUID
