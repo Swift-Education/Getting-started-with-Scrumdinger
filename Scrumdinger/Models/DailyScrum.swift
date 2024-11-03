@@ -10,7 +10,7 @@ import Foundation
 struct DailyScrum: Identifiable {
     let id: UUID
     var title: String
-    let attendees: [Attendee]
+    var attendees: [Attendee]
     var lengthInMinutes: Int
     var lengthInMinutesAsDouble: Double {
         get {
