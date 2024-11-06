@@ -18,6 +18,7 @@
 		B55AD4682CD24D920040F59F /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AD4672CD24D920040F59F /* ScrumsView.swift */; };
 		B55D13902CD4682100C73A8B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D138F2CD4682000C73A8B /* DetailView.swift */; };
 		B55D13942CD79EB200C73A8B /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D13932CD79EB200C73A8B /* DetailEditView.swift */; };
+		B55D13962CDB18A900C73A8B /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D13952CDB18A900C73A8B /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B55AD4672CD24D920040F59F /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		B55D138F2CD4682000C73A8B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		B55D13932CD79EB200C73A8B /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		B55D13952CDB18A900C73A8B /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B55AD4672CD24D920040F59F /* ScrumsView.swift */,
 				B55D138F2CD4682000C73A8B /* DetailView.swift */,
 				B55D13932CD79EB200C73A8B /* DetailEditView.swift */,
+				B55D13952CDB18A900C73A8B /* ThemeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				B55AD4682CD24D920040F59F /* ScrumsView.swift in Sources */,
 				B55AD4502CD12AC40040F59F /* MeetingView.swift in Sources */,
 				B55AD4512CD12AC40040F59F /* ScrumdingerApp.swift in Sources */,
+				B55D13962CDB18A900C73A8B /* ThemeView.swift in Sources */,
 				B55AD4642CD1CAE80040F59F /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
