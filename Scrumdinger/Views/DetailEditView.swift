@@ -24,6 +24,7 @@ struct DetailEditView: View {
                     }
                     .accessibilityValue("\(scrum.lengthInMinutes) minutes")
                 }
+                ThemePicker(selection: $scrum.theme)
             }
             Section(header: Text("Attendess")) {
                 ForEach(scrum.attendees) { attendee in
