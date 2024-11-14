@@ -24,6 +24,7 @@
 		B55D139C2CDF220700C73A8B /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D139B2CDF220700C73A8B /* ScrumProgressViewStyle.swift */; };
 		B55D141C2CE5C18D00C73A8B /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D141B2CE5C18D00C73A8B /* ScrumTimer.swift */; };
 		B55D141E2CE6037700C73A8B /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D141D2CE6037700C73A8B /* MeetingFooterView.swift */; };
+		B55D14202CE62BA900C73A8B /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D141F2CE62BA900C73A8B /* AVPlayer+Ding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		B55D139B2CDF220700C73A8B /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		B55D141B2CE5C18D00C73A8B /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		B55D141D2CE6037700C73A8B /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		B55D141F2CE62BA900C73A8B /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B55AD45E2CD1C7DD0040F59F /* Theme.swift */,
 				B55AD4602CD1C9A10040F59F /* DailyScrum.swift */,
 				B55D141B2CE5C18D00C73A8B /* ScrumTimer.swift */,
+				B55D141F2CE62BA900C73A8B /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				B55AD4512CD12AC40040F59F /* ScrumdingerApp.swift in Sources */,
 				B55D13962CDB18A900C73A8B /* ThemeView.swift in Sources */,
 				B55AD4642CD1CAE80040F59F /* CardView.swift in Sources */,
+				B55D14202CE62BA900C73A8B /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
