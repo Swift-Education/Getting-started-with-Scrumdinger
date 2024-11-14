@@ -23,6 +23,7 @@
 		B55D139A2CDF104000C73A8B /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D13992CDF104000C73A8B /* MeetingHeaderView.swift */; };
 		B55D139C2CDF220700C73A8B /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D139B2CDF220700C73A8B /* ScrumProgressViewStyle.swift */; };
 		B55D141C2CE5C18D00C73A8B /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D141B2CE5C18D00C73A8B /* ScrumTimer.swift */; };
+		B55D141E2CE6037700C73A8B /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D141D2CE6037700C73A8B /* MeetingFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		B55D13992CDF104000C73A8B /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		B55D139B2CDF220700C73A8B /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		B55D141B2CE5C18D00C73A8B /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		B55D141D2CE6037700C73A8B /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				B55D13972CDB1B3600C73A8B /* ThemePicker.swift */,
 				B55D13992CDF104000C73A8B /* MeetingHeaderView.swift */,
 				B55D139B2CDF220700C73A8B /* ScrumProgressViewStyle.swift */,
+				B55D141D2CE6037700C73A8B /* MeetingFooterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				B55D13982CDB1B3600C73A8B /* ThemePicker.swift in Sources */,
 				B55D139C2CDF220700C73A8B /* ScrumProgressViewStyle.swift in Sources */,
+				B55D141E2CE6037700C73A8B /* MeetingFooterView.swift in Sources */,
 				B55AD4612CD1C9A10040F59F /* DailyScrum.swift in Sources */,
 				B55D13902CD4682100C73A8B /* DetailView.swift in Sources */,
 				B55D139A2CDF104000C73A8B /* MeetingHeaderView.swift in Sources */,
