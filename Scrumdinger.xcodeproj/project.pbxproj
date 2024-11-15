@@ -25,6 +25,7 @@
 		B55D141C2CE5C18D00C73A8B /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D141B2CE5C18D00C73A8B /* ScrumTimer.swift */; };
 		B55D141E2CE6037700C73A8B /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D141D2CE6037700C73A8B /* MeetingFooterView.swift */; };
 		B55D14202CE62BA900C73A8B /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D141F2CE62BA900C73A8B /* AVPlayer+Ding.swift */; };
+		B55D14222CE6394800C73A8B /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D14212CE6394800C73A8B /* NewScrumSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		B55D141B2CE5C18D00C73A8B /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		B55D141D2CE6037700C73A8B /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		B55D141F2CE62BA900C73A8B /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		B55D14212CE6394800C73A8B /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				B55D13992CDF104000C73A8B /* MeetingHeaderView.swift */,
 				B55D139B2CDF220700C73A8B /* ScrumProgressViewStyle.swift */,
 				B55D141D2CE6037700C73A8B /* MeetingFooterView.swift */,
+				B55D14212CE6394800C73A8B /* NewScrumSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				B55D139A2CDF104000C73A8B /* MeetingHeaderView.swift in Sources */,
 				B55D13942CD79EB200C73A8B /* DetailEditView.swift in Sources */,
 				B55AD4662CD22EA20040F59F /* TrailingIconLabelStyle.swift in Sources */,
+				B55D14222CE6394800C73A8B /* NewScrumSheet.swift in Sources */,
 				B55AD45F2CD1C7DD0040F59F /* Theme.swift in Sources */,
 				B55D141C2CE5C18D00C73A8B /* ScrumTimer.swift in Sources */,
 				B55AD4682CD24D920040F59F /* ScrumsView.swift in Sources */,
