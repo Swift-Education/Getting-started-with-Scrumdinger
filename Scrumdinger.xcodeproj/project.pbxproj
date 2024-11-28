@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B502CA972CF860A700D7CB13 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B502CA962CF860A700D7CB13 /* ScrumStore.swift */; };
 		B55AD44E2CD12AC40040F59F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55AD4482CD12AC40040F59F /* Preview Assets.xcassets */; };
 		B55AD44F2CD12AC40040F59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55AD44A2CD12AC40040F59F /* Assets.xcassets */; };
 		B55AD4502CD12AC40040F59F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AD44B2CD12AC40040F59F /* MeetingView.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B502CA962CF860A700D7CB13 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		B55AD4372CD12AB90040F59F /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55AD4482CD12AC40040F59F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B55AD44A2CD12AC40040F59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				B55D141B2CE5C18D00C73A8B /* ScrumTimer.swift */,
 				B55D141F2CE62BA900C73A8B /* AVPlayer+Ding.swift */,
 				B55D14232CE8AE6E00C73A8B /* History.swift */,
+				B502CA962CF860A700D7CB13 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				B55D141E2CE6037700C73A8B /* MeetingFooterView.swift in Sources */,
 				B55AD4612CD1C9A10040F59F /* DailyScrum.swift in Sources */,
 				B55D13902CD4682100C73A8B /* DetailView.swift in Sources */,
+				B502CA972CF860A700D7CB13 /* ScrumStore.swift in Sources */,
 				B55D139A2CDF104000C73A8B /* MeetingHeaderView.swift in Sources */,
 				B55D13942CD79EB200C73A8B /* DetailEditView.swift in Sources */,
 				B55AD4662CD22EA20040F59F /* TrailingIconLabelStyle.swift in Sources */,
