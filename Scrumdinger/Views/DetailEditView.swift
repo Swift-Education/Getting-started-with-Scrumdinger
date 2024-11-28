@@ -18,11 +18,11 @@ struct DetailEditView: View {
                 HStack {
                     Slider(value: $scrum.lengthInMinutesAsDouble, in: 5...30, step: 1) {
                         Text("Length")
-                        Spacer()
-                        Text("\(scrum.lengthInMinutes) minutes")
-                            .accessibilityHidden(true)
                     }
                     .accessibilityValue("\(scrum.lengthInMinutes) minutes")
+                    Spacer()
+                    Text("\(scrum.lengthInMinutes) minutes")
+                        .accessibilityHidden(true)
                 }
                 ThemePicker(selection: $scrum.theme)
             }
