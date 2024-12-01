@@ -11,6 +11,8 @@
 		B502CA9D2CF89B3800D7CB13 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B502CA9C2CF89B3800D7CB13 /* ErrorWrapper.swift */; };
 		B502CA9F2CF89BA800D7CB13 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B502CA9E2CF89BA800D7CB13 /* ErrorView.swift */; };
 		B502CAA12CFC77D700D7CB13 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B502CAA02CFC77D700D7CB13 /* MeetingTimerView.swift */; };
+		B502CAA42CFC7A5400D7CB13 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = B502CAA22CFC7A5400D7CB13 /* ding.wav */; };
+		B502CAA62CFC7A6C00D7CB13 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B502CAA52CFC7A6C00D7CB13 /* SpeakerArc.swift */; };
 		B55AD44E2CD12AC40040F59F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55AD4482CD12AC40040F59F /* Preview Assets.xcassets */; };
 		B55AD44F2CD12AC40040F59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55AD44A2CD12AC40040F59F /* Assets.xcassets */; };
 		B55AD4502CD12AC40040F59F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AD44B2CD12AC40040F59F /* MeetingView.swift */; };
@@ -38,6 +40,8 @@
 		B502CA9C2CF89B3800D7CB13 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		B502CA9E2CF89BA800D7CB13 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		B502CAA02CFC77D700D7CB13 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		B502CAA22CFC7A5400D7CB13 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		B502CAA52CFC7A6C00D7CB13 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		B55AD4372CD12AB90040F59F /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55AD4482CD12AC40040F59F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B55AD44A2CD12AC40040F59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B502CAA32CFC7A5400D7CB13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B502CAA22CFC7A5400D7CB13 /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B55AD42E2CD12AB90040F59F = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,7 @@
 				B55AD4492CD12AC40040F59F /* Preview Content */,
 				B55AD44A2CD12AC40040F59F /* Assets.xcassets */,
 				B55AD4622CD1CADD0040F59F /* Views */,
+				B502CAA32CFC7A5400D7CB13 /* Resources */,
 				B55AD44C2CD12AC40040F59F /* ScrumdingerApp.swift */,
 			);
 			path = Scrumdinger;
@@ -139,6 +152,7 @@
 				B55D14212CE6394800C73A8B /* NewScrumSheet.swift */,
 				B502CA9E2CF89BA800D7CB13 /* ErrorView.swift */,
 				B502CAA02CFC77D700D7CB13 /* MeetingTimerView.swift */,
+				B502CAA52CFC7A6C00D7CB13 /* SpeakerArc.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B502CAA42CFC7A5400D7CB13 /* ding.wav in Resources */,
 				B55AD44E2CD12AC40040F59F /* Preview Assets.xcassets in Resources */,
 				B55AD44F2CD12AC40040F59F /* Assets.xcassets in Resources */,
 			);
@@ -220,6 +235,7 @@
 				B55D13982CDB1B3600C73A8B /* ThemePicker.swift in Sources */,
 				B55D139C2CDF220700C73A8B /* ScrumProgressViewStyle.swift in Sources */,
 				B55D141E2CE6037700C73A8B /* MeetingFooterView.swift in Sources */,
+				B502CAA62CFC7A6C00D7CB13 /* SpeakerArc.swift in Sources */,
 				B502CA9F2CF89BA800D7CB13 /* ErrorView.swift in Sources */,
 				B55AD4612CD1C9A10040F59F /* DailyScrum.swift in Sources */,
 				B502CAA12CFC77D700D7CB13 /* MeetingTimerView.swift in Sources */,
