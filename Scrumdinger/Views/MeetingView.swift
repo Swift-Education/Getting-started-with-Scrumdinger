@@ -28,6 +28,7 @@ struct MeetingView: View {
                 )
                 MeetingTimerView(
                     speakers: scrumTimer.speakers,
+                    isRecording: isRecording,
                     theme: scrum.theme
                 )
                 MeetingFooterView(
